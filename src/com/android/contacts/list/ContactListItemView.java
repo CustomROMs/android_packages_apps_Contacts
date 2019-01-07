@@ -1156,7 +1156,7 @@ public class ContactListItemView extends ViewGroup
     public TextView getNameTextView() {
         if (mNameTextView == null) {
             mNameTextView = new TextView(getContext());
-            mNameTextView.setSingleLine(true);
+            mNameTextView.setSingleLine(false);
             mNameTextView.setEllipsize(getTextEllipsis());
             mNameTextView.setTextColor(ResourcesCompat.getColorStateList(getResources(),
                     R.color.contact_list_name_text_color, getContext().getTheme()));
